@@ -28,10 +28,6 @@ Repo: https://github.com/jamescotton2123/altvio
 - **Domain:** Alternative investments, investor onboarding, KYC/AML, fund operations
 - **Current employer stack:** Power Automate, AI Builder, Advanced Excel, SharePoint
 
-## What I'm Working Toward
-
-I'm building toward forward-deployed engineering and solutions engineering roles where customer empathy, technical execution, and financial-operations domain expertise overlap.
-
 ## Connect
 
 LinkedIn: https://linkedin.com/in/jamescotton23
