@@ -1,46 +1,37 @@
 # 👋 I'm James Cotton
-### **WealthTech Solutions Architect | FinTech Automation Specialist**
 
-I specialize in bridging the gap between high-touch financial operations and scalable technical infrastructure. My focus is on engineering automated data pipelines that eliminate manual "NIGO" (Not In Good Order) friction in Private Equity and Alternative Investment workflows.
+Investment operations professional and self-taught backend engineer focused on alternative investments, workflow automation, and AI-assisted operations.
 
----
+By day, I work in wealth management operations. On nights and weekends, I build technical projects that help me understand production software patterns: Python, FastAPI, Postgres, API integrations, webhooks, and agentic AI workflows.
 
-## 📈 The Mission
-At the intersection of Wealth Management and Software Engineering, I transform legacy manual processes into automated ecosystems. My current objective is to leverage Python and API orchestration to:
-* **Reduce Onboarding Latency:** Automating 20-point investor intake flows.
-* **Ensure Data Integrity:** Engineering ETL pipelines for seamless Orion & DocuSign integration.
-* **Scalable Reconciliation:** Bypassing RPA limitations with vectorized Python logic.
+## Current Project
 
----
+### Altvio — Alternative Investments Operations Platform
 
-## 🛠️ Technical Stack
-| Category | Tools & Technologies |
-| :--- | :--- |
-| **Languages** | Python (Pandas, NumPy, JSON) |
-| **Integrations** | DocuSign API, Orion ETL, MS Forms/Power Automate |
-| **Environments** | Google Colab, VS Code, GitHub Actions |
-| **Ops Domain** | Private Equity, SDIRA Custodial Logic (Strata), Master Data Management |
+Altvio is an open-source reference implementation of alternative-investments operations workflows, built as a personal learning project.
 
----
+It explores:
 
-## 🚀 Featured Ecosystems
+- Multi-tenant backend architecture with FastAPI and Postgres/Supabase
+- Investor onboarding, KYC, DocuSign, Orion export, and fund operations workflows
+- GPT-4o / Claude-assisted document extraction and natural-language data access
+- Webhook-driven integrations with DocuSign and Microsoft Graph
+- Audit-ready patterns: idempotency, structured logging, API-key hashing, and human-in-the-loop review queues
 
-### [**WM Digital Onboarding Ecosystem**](https://github.com/jamescotton2123/WM-Digital-Onboarding-Ecosystem)
-A modular ingestion engine designed to handle the full lifecycle of an investor's "Clean" data.
-* **Gatekeeper:** NIGO validation for capital commitments and entity types.
-* **Orchestrator:** Conditional DocuSign routing and JSON payload generation.
-* **ETL Pipeline:** Complex transformation logic for Orion NAImport (New/Existing) with custodial exception handling for SDIRA accounts.
+Repo: https://github.com/jamescotton2123/altvio
 
-### [**Enterprise AIP Cash Auditor**](https://github.com/jamescotton2123/Enterprise_AIP_Cash_Auditor)
-An automated reconciliation pipeline built to handle high-volume cash movements and audit trails, specifically designed to bypass the brittleness of legacy RPA solutions.
+## Technical Focus
 
----
+- **Backend:** Python, FastAPI, Pydantic, Postgres, Supabase
+- **AI Workflows:** GPT-4o, Claude, function calling, Vision, prompt engineering
+- **Integrations:** DocuSign, Microsoft Graph, SharePoint, Orion NAImport
+- **Domain:** Alternative investments, investor onboarding, KYC/AML, fund operations
+- **Current employer stack:** Power Automate, AI Builder, Advanced Excel, SharePoint
 
-## 🧪 Architectural Philosophy
-> "Don't just automate the task; architect the system." 
+## What I'm Working Toward
 
-I believe every manual spreadsheet is an opportunity for a robust API-driven solution. My builds prioritize **Separation of Concerns**, **Vectorized Performance**, and **Audit-Ready Logging**.
+I'm building toward forward-deployed engineering and solutions engineering roles where customer empathy, technical execution, and financial-operations domain expertise overlap.
 
----
+## Connect
 
-📫 **Connect with me:** [LinkedIn](https://www.linkedin.com/in/jamescotton23)
+LinkedIn: https://linkedin.com/in/jamescotton23
