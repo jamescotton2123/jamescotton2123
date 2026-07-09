@@ -1,33 +1,45 @@
 # 👋 I'm James Cotton
 
-Investment operations professional and self-taught backend engineer focused on alternative investments, workflow automation, and AI-assisted operations.
+Backend engineer and alternative-investments operations professional (Series 65) 
+building production Python systems for regulated financial workflows.
 
-By day, I work in wealth management operations. On nights and weekends, I build technical projects that help me understand production software patterns: Python, FastAPI, Postgres, API integrations, webhooks, and agentic AI workflows.
+By day I run investor onboarding, KYC, and fund operations at a wealth management 
+firm. I deployed automation adopted by 8 advisors across 6 active fund closings — 
+cutting per-investor processing from ~25 minutes to under 5 minutes across 99+ 
+investors per closing.
 
 ## Current Project
 
-### Altvio — Alternative Investments Operations Platform
+### [Altvio — Alternative Investments Operations Platform](https://github.com/jamescotton2123/altvio)
 
-Altvio is an open-source reference implementation of alternative-investments operations workflows, built as a personal learning project.
+Production-equivalent platform built in parallel to solving the same problems live 
+at work. Not a tutorial project — a full backend system for the workflows I operate 
+every day.
 
-It explores:
+**What it implements:**
 
-- Multi-tenant backend architecture with FastAPI and Postgres/Supabase
-- Investor onboarding, KYC, DocuSign, Orion export, and fund operations workflows
-- GPT-4o / Claude-assisted document extraction and natural-language data access
-- Webhook-driven integrations with DocuSign and Microsoft Graph
-- Audit-ready patterns: idempotency, structured logging, API-key hashing, and human-in-the-loop review queues
+- Multi-tenant FastAPI + Postgres/Supabase backend with `firm_id` RLS isolation, 
+  120 REST endpoints, and a hash-chained tamper-evident audit ledger
+- 9 agentic AI workflows: NL→SQL via allowlisted RPCs, GPT-4o Vision for 
+  KYC/sub-doc/wire extraction, intake parsing, and human-in-the-loop pending-change queues
+- Event-driven integrations: DocuSign JWT + Connect webhooks, Microsoft Graph 
+  mailbox subscriptions, SharePoint file flows, Orion NAImport export
+- Institutional-grade reliability: HMAC webhook verification, idempotent event 
+  deduplication, bcrypt API-key rotation, tenacity retry wrappers, structured JSON logging
+- Role-scoped access patterns for ops, advisors, investors, traders, and client 
+  associates using firm-scoped headers, hashed API keys, portal tokens, and webhook 
+  signature validation
 
-Repo: https://github.com/jamescotton2123/altvio
+## Technical Stack
 
-## Technical Focus
-
-- **Backend:** Python, FastAPI, Pydantic, Postgres, Supabase
-- **AI Workflows:** GPT-4o, Claude, function calling, Vision, prompt engineering
-- **Integrations:** DocuSign, Microsoft Graph, SharePoint, Orion NAImport
-- **Domain:** Alternative investments, investor onboarding, KYC/AML, fund operations
-- **Current employer stack:** Power Automate, AI Builder, Advanced Excel, SharePoint
+| Layer | Stack |
+|-------|-------|
+| Backend | Python, FastAPI, Pydantic, SQL |
+| Data | Postgres, Supabase, RLS, schema migrations |
+| AI | OpenAI GPT-4o, Anthropic Claude, function calling, Vision |
+| Integrations | DocuSign, Microsoft Graph, SharePoint, Orion NAImport |
+| Reliability | pytest, tenacity, APScheduler, structured logging, Docker |
 
 ## Connect
 
-LinkedIn: https://linkedin.com/in/jamescotton23
+[LinkedIn](https://linkedin.com/in/jamescotton23)
